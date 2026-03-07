@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/78d474682c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="about-me">
+      <nav>
+        <div class="personal__logo">Shawn Ortiz-Rivera</div>
+        <ul class="nav__link--list">
+          <li>
+            <a
+              href=""
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Languages</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="" class="nav__link--anchor nav__link--anchor-primary"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="flex flex-1">
+        <div class="about-me__info row">
+          <div class="about-me__info--container">
+            <figure class="about-me__picture--mask">
+              <img
+                src="./assets/LEOpold.png"
+                class="about-me__picture"
+                alt="Profile Image"
+              />
+            </figure>
+            <h1 class="about-me__info--title">
+              Hey! I'm <span class="text--darkblue">Shawn Ortiz-Rivera</span>
+
+              <style>
+                .waving-paw {
+                  width: 50px;
+                  height: 50px;
+                  animation: wave 1.5s infinite;
+                  transform-origin: bottom center;
+                }
+
+                @keyframes wave {
+                  0% {
+                    transform: rotate(0deg);
+                  }
+                  50% {
+                    transform: rotate(30deg);
+                  }
+                  100% {
+                    transform: rotate(0deg);
+                  }
+                }
+              </style>
+
+              <svg class="waving-paw" viewBox="0 0 100 100">
+                <!-- Furry Arm -->
+                <ellipse
+                  cx="50"
+                  cy="70"
+                  rx="15"
+                  ry="30"
+                  fill="#242424"
+                  stroke="#242424"
+                  stroke-width="2"
+                />
+                <!-- Main Paw -->
+                <circle
+                  cx="50"
+                  cy="40"
+                  r="20"
+                  fill="#242424"
+                  stroke="#242424"
+                  stroke-width="2"
+                />
+                <!-- Toe Beans -->
+                <circle cx="40" cy="35" r="5" fill="#FFADAD" />
+                <circle cx="50" cy="30" r="5" fill="#FFADAD" />
+                <circle cx="60" cy="35" r="5" fill="#FFADAD" />
+                <circle cx="50" cy="45" r="7" fill="#FFADAD" />
+              </svg>
+            </h1>
+            <p class="about-me__info--para">
+              I'm a passionate
+              <strong class="text--darkblue"
+                >front-end software engineer</strong
+              >
+              with a love for creating engaging user experiences.
+            </p>
+            <div class="about-me__links">
+              <a href="" class="about-me__link">
+                <i class="fa-brands fa-square-linkedin"></i>
+              </a>
+              <a href="" class="about-me__link">
+                <i class="fa-brands fa-square-github"></i>
+              </a>
+              <a href="" class="about-me__link">
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+              <a href="" class="about-me__link">
+                <i class="fa-solid fa-file-pdf"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
