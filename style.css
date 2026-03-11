@@ -103,6 +103,12 @@ ABOUT ME
     flex-direction: column;
 }
 
+.about-me__info {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .about-me__info--container {
     display: flex;
     justify-content: center;
@@ -131,7 +137,7 @@ IMPROVING MY OWN PICTURE
 
 */
 
-transform: scale(1.5);
+transform: scale(1.2);
 padding-top: 8px;
 padding-left: 8px;
 }
@@ -155,7 +161,17 @@ padding-left: 8px;
     padding: 0 16px;
 }
 
+.about-me__img--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.68);
+}
 
+.about-me__img {
+    width: 100%;
+}
 
 
 
